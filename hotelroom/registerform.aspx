@@ -17,7 +17,7 @@
             <td id="lblpassword">
                 Enter Password :</td>
             <td>
-                <asp:TextBox ID="txtpassword" TextMode="password" runat="server" CssClass="form-control"  OnTextChanged="txtpassword_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="txtpassword" TextMode="Password" runat="server" CssClass="form-control"  OnTextChanged="txtpassword_TextChanged"></asp:TextBox>
             </td>
             <td>
                 
@@ -28,7 +28,7 @@
             <td id="lblpassword">
                 Confirm Password :</td>
                 <td>
-                    <asp:TextBox ID="txtconpassword" TextMode="password" runat="server" CssClass="form-control"></asp:TextBox>
+                    <asp:TextBox ID="txtconpassword" TextMode="Password" runat="server" CssClass="form-control"></asp:TextBox>
                 </td>
                 <td>
                     <asp:CompareValidator ID="CompareValidator2" runat="server" ErrorMessage="Invalid Password" ForeColor="Red" ControlToValidate="txtconpassword" ControlToCompare="txtpassword"></asp:CompareValidator>

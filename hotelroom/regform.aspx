@@ -83,7 +83,7 @@
             </td>
             <td id="lblchildrens" style="width: 68px">Childrens :</td>
             <td style="width: 132px"> 
-                <asp:DropDownList ID="ddlchildren" runat="server" style="margin-bottom: 20">
+                <asp:DropDownList ID="ddlchildren" runat="server" style="margin-bottom: 20px">
                     <asp:ListItem>select</asp:ListItem>
                     <asp:ListItem>1</asp:ListItem>
                     <asp:ListItem>2</asp:ListItem>
@@ -97,7 +97,7 @@
             <td id="lbladult" style="width: 141px">&nbsp;</td>
             <td>
 
-                <asp:Button ID="btnregister" runat="server" CssClass="btn btn-success" OnClick="btnregister_Click" Text="Register" />
+                <asp:Button ID="btnregister" runat="server" CssClass="btn btn-success" OnClick="btnregister_Click" Text="Register Here" />
 
             </td>
            

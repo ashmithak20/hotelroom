@@ -28,10 +28,10 @@ namespace hotelroom
 
         protected void btnregister_Click(object sender, EventArgs e)
         {
-            str = "INSERT INTO booking_main (first_name, last_name, address, city, state, zipcode, phone, check_in_date, email_address, room_preference, adults, childrens) VALUES ('" + Txtfname.Text + "','" + txtlname.Text + "','" + Txtaddress.Text + "','" + txtcity.Text + "','" + txtstate.Text + "','" + txtzip.Text + "','" + ifcCheckin.Text + "','" + txtphone.Text + "','" + txtemail.Text + "','" + rbpreference.Text + "','" + ddladult.Text + "','" + ddlchildren.Text + "')";
+            str = "INSERT INTO booking_main (first_name, last_name, address, city, state, zipcode, phone, email_address, room_preference, adults, childrens) VALUES ('" + Txtfname.Text + "','" + txtlname.Text + "','" + Txtaddress.Text + "','" + txtcity.Text + "','" + txtstate.Text + "','" + txtzip.Text + "','" + txtphone.Text + "','" + txtemail.Text + "','" + rbpreference.Text + "','" + ddladult.Text + "','" + ddlchildren.Text + "')";
             cmd = new MySqlCommand(str, con);
             cmd.ExecuteNonQuery();
-            Response.Redirect("login.aspx");
+           
         }
     }
 }
