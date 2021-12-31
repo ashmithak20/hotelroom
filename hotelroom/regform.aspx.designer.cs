@@ -15,13 +15,13 @@ namespace hotelroom
     {
 
         /// <summary>
-        /// Txtname control.
+        /// Txtfname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Txtname;
+        protected global::System.Web.UI.WebControls.TextBox Txtfname;
 
         /// <summary>
         /// txtlname control.
@@ -87,48 +87,39 @@ namespace hotelroom
         protected global::System.Web.UI.WebControls.TextBox txtemail;
 
         /// <summary>
-        /// Calendar1 control.
+        /// rbpreference control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar1;
+        protected global::System.Web.UI.WebControls.RadioButtonList rbpreference;
 
         /// <summary>
-        /// Calendar2 control.
+        /// ddladult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar Calendar2;
+        protected global::System.Web.UI.WebControls.DropDownList ddladult;
 
         /// <summary>
-        /// RadioButtonList1 control.
+        /// ddlchildren control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.DropDownList ddlchildren;
 
         /// <summary>
-        /// DropDownList3 control.
+        /// btnregister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
-
-        /// <summary>
-        /// DropDownList4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
+        protected global::System.Web.UI.WebControls.Button btnregister;
     }
 }

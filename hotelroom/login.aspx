@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="hotelroom.login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <style>
-        body {
+        /* body {
             background-image:url(https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/21/2016/06/21042553/Executive-Room_23.jpg);
-        }
+        } */
     </style>
     <h1>Login Form </h1><table style="width:100%;">
         <tr>
